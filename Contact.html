@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact details</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <ul>
+      <li>Email: ngaphan11390@gmail.com</li>
+      <li>Phone: +84933453568</li>
+      <li>Address: 49 Tran Nguyen Han st., Thuan Hoa ward, Hue city, Vietnam</li>
+    </ul>
+    <hr>
+    <h2>If you'd like to contact me, please fill in below form</h2>
+    <form action="mailto:ngaphan11390@gmail.com" method="post" enctype="text/plain">
+      <!--action=mail to to send to email, enctype=text/plain to avoid % symbol-->
+      <label>Your name:</label>
+      <input type="text" name="YourName" value=""><br>
+      <label>Your email:</label>
+      <input type="email" name="YourEmail" value=""><br>
+      <!--type=email to validate email input following email format-->
+      <label>Your message:</label><br>
+      <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
